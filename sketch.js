@@ -55,7 +55,7 @@ let phonemeIndex = 0;
 
 
 let minPhnoicsRecognitionIteration = 1;
-let overlapFactor =0.9;
+let overlapFactor =0.85;
 let maxTopKPhonicsResult = 6;
 let backgroundNoiseCount = 1;
 let backgroundNoiseThershold = 3;
