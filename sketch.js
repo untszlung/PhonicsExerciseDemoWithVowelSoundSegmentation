@@ -16,7 +16,10 @@ wordlist = [
 vowelSoundList = ['a','o','i','ee','u'];
 
 // 3 speakers training data
-const URL = "https://teachablemachine.withgoogle.com/models/E1cMzu4nQ/";
+//const URL = "https://teachablemachine.withgoogle.com/models/E1cMzu4nQ/";
+
+//miss lam data
+const URL = "https://teachablemachine.withgoogle.com/models/RhDcUFCz3/";
 
 let recognizer;
 let classLabels;
@@ -55,7 +58,7 @@ let phonemeIndex = 0;
 
 
 let minPhnoicsRecognitionIteration = 1;
-let overlapFactor =0.85;
+let overlapFactor =0.9;
 let maxTopKPhonicsResult = 6;
 let backgroundNoiseCount = 1;
 let backgroundNoiseThershold = 3;
